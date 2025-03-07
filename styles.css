@@ -1,0 +1,79 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  padding: 20px;
+  background-color: #f9f9f9;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+th,
+td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: left;
+}
+th {
+  background-color: #4caf50;
+  color: white;
+}
+a {
+  color: #0066cc;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+/* Sidebar Styles */
+.sidebar {
+  position: fixed; /* Keeps it fixed while scrolling */
+  left: 0;
+  top: 0;
+  width: 100px; /* Adjust width as needed */
+  height: 100vh; /* Full height */
+  background-color: #333; /* Dark background */
+  padding-top: 20px;
+}
+
+/* Sidebar Navigation */
+.sidebar nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.sidebar nav ul li {
+  padding: 15px;
+  text-align: left;
+}
+
+.sidebar nav ul li a {
+  text-decoration: none;
+  color: white;
+  display: block;
+  font-size: 18px;
+}
+
+.sidebar nav ul li a:hover {
+  background-color: #575757;
+}
+
+/* ✅ Fix: Push Content to the Right */
+.content {
+  text-align: center;
+  margin-top: 0px; /* Optional: adds space from the navbar */
+
+  margin-left: 120px; /* Matches sidebar width + some space */
+  padding: 20px;
+}
+
+/* To place the image in the middle of the content */
+.content img {
+  display: block;
+  margin: 0 auto; /* This centers the image horizontally */
+  max-width: 100%; /* Optional: ensures the image is responsive */
+}

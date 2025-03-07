@@ -3,134 +3,41 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="styles.css">
+
     <title>Adidam Devotional Activities</title>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            fetch('nav.html')
+                .then(response => response.text())
+                .then(data => {
+                    document.getElementById('navbar').innerHTML = data;
+                });
+        });
+    </script>
     <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 20px;
-            padding: 20px;
-            background-color: #f9f9f9;
-        }
-        table {
-            width: 100%;
-            border-collapse: collapse;
-            background: #fff;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-        }
-        th, td {
-            border: 1px solid #ddd;
-            padding: 10px;
-            text-align: left;
-        }
-        th {
-            background-color: #4CAF50;
-            color: white;
-        }
-        a {
-            color: #0066cc;
-            text-decoration: none;
-        }
-        a:hover {
-            text-decoration: underline;
-        }
+       
     </style>
 </head>
 <body>
 
-    <h2>Adidam Devotional Activities</h2>
+    <div id="navbar"></div>
 
-    <table>
-        <tr>
-            <th>Day</th>
-            <th>Time (EST)</th>
-            <th>Activity</th>
-            <th>Contact Person</th>
-            <th>Email</th>
-            <th>Activity Link</th>
-            <th>Notes</th>
-        </tr>
-        <tr>
-            <td>Mon - Thur</td>
-            <td>4:30 PM</td>
-            <td>Recitation & Worldwide Devotional Prayer of Changes</td>
-            <td>Dennis Coccaro</td>
-            <td><a href="mailto:dcoccaro@adidam.org">dcoccaro@adidam.org</a></td>
-            <td><a href="#">Zoom Link</a></td>
-            <td></td>
-        </tr>
-        <tr>
-            <td>Mon - Fri</td>
-            <td>3:30 - 4:00 PM</td>
-            <td>Prayer session led by a 2C devotee</td>
-            <td>Tally Groves</td>
-            <td><a href="mailto:tallyg@adidam.org">tallyg@adidam.org</a></td>
-            <td><a href="#">Zoom Link</a></td>
-            <td>Please contact Tally before attending for the first time</td>
-        </tr>
-        <tr>
-            <td>Daily</td>
-            <td>6:00 PM</td>
-            <td>"6@6", 6 min Devotional Prayer of Changes</td>
-            <td>John Vieira</td>
-            <td><a href="mailto:John_Vieira@adidam.org">John_Vieira@adidam.org</a></td>
-            <td>Call: 1-605-475-4887, Code: 762841#</td>
-            <td></td>
-        </tr>
-        <tr>
-            <td>Tuesday</td>
-            <td>8:00 PM</td>
-            <td>Varied: Readings, audio, leelas</td>
-            <td>Peter Martin</td>
-            <td><a href="mailto:Peter_Martin@adidam.org">Peter_Martin@adidam.org</a></td>
-            <td>Call: 267-807-9601, Code: 679-681-918#</td>
-            <td></td>
-        </tr>
-        <tr>
-            <td>Wednesday</td>
-            <td>9:00 PM</td>
-            <td>Recitation: The Pneumaton</td>
-            <td>Bryan & Robin Foster</td>
-            <td><a href="mailto:bfostser@blackfoot.net">bfostser@blackfoot.net</a></td>
-            <td>Call: 1-267-807-9601, Code: 843-225-315#</td>
-            <td></td>
-        </tr>
-        <tr>
-            <td>Thursday</td>
-            <td>8:00 PM</td>
-            <td>Recitation: Easy Death</td>
-            <td>Peter Martin</td>
-            <td><a href="mailto:Peter_Martin@adidam.org">Peter_Martin@adidam.org</a></td>
-            <td>Call: 267-807-9601, Code: 679-681-918#</td>
-            <td></td>
-        </tr>
-        <tr>
-            <td>Saturday</td>
-            <td>1:00 PM</td>
-            <td>Prayer of Changes for Global Weather Pattern & Climate Change</td>
-            <td>Linda Swanson</td>
-            <td><a href="mailto:Linda_Swanson@adidam.org">Linda_Swanson@adidam.org</a></td>
-            <td>Call: 717-275-8940, Code: 718327#</td>
-            <td></td>
-        </tr>
-        <tr>
-            <td>Sundays</td>
-            <td>9:00 AM</td>
-            <td>Recitation: Always Enact Fidelity To Me</td>
-            <td>Marie Jagodnik</td>
-            <td><a href="mailto:Marie_jagodnik@adidam.org">Marie_jagodnik@adidam.org</a></td>
-            <td>Call: 267-807-9601, Code: 679-681-918#</td>
-            <td></td>
-        </tr>
-        <tr>
-            <td>3rd Sunday/month</td>
-            <td>7:00 PM</td>
-            <td>Education: Courses, Puja, Gifting, Retreats, Celebrations...</td>
-            <td>Katherine Gantz</td>
-            <td><a href="mailto:kgantz@adidam.org">kgantz@adidam.org</a></td>
-            <td><a href="#">Zoom Link</a> (Meeting ID: 384 184 2179, Code: 218027)</td>
-            <td>Please contact Katherine before attending for the first time</td>
-        </tr>
-    </table>
+    <div class="content">
+        <h2>Adidam Devotional Activities</h2>
+
+
+        <img src="AvatarAdiDa.jpg" alt="Adidam Image">
+
+        <p></p>
+
+        Welcome to Adidam Events. Please visit events to see what is happening online
+
+    </div>
+
+  
 
 </body>
 </html>
