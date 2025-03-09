@@ -75,5 +75,6 @@ a:hover {
 .content img {
   display: block;
   margin: 0 auto; /* This centers the image horizontally */
-  max-width: 100%; /* Optional: ensures the image is responsive */
+  width: 500px; /* Optional: ensures the image is responsive */
+  height: auto;
 }
